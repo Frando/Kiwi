@@ -151,12 +151,10 @@ div#messages div.message-error {
 ul.primary {
   border-bottom: 0;
 }
-div.tabs {
-  height: 2.5em;
-}
 div.tabs ul li {
   padding-left: 0;
   background-image: none;
+  line-height: 3;
 }
 div.tabs ul li a {
   border: 2px solid #3EACCE;
@@ -170,8 +168,10 @@ div.tabs ul li a {
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
 }
-div.tabs ul li.active a {
+div.tabs ul li.active a,
+div.tabs ul li.active a:hover {
   background-color: #3EACCE;
+  border-color: #3EACCE;
   color: #FFFFFF;
 }
 ul.primary li a:hover {
