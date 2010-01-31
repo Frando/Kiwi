@@ -6,24 +6,24 @@ div#page {
   width: 80%;
   margin: 0 auto;
 }
-
-div#content {
+div.column {
   float: left;
 }
-
 body.two-sidebars div#content {
-  width: 51.5%
+  width: 52%;
 }
-
 body.sidebar-first div#content {
-  width: 69.5%
+  width: 70%;
 }
-
 body.sidebar-second div#content {
-  width: 81.5%
+  width: 82%;
 }
-
 div#sidebar-first {
   width: 30%;
-  float: right;
+}
+div#sidebar-second {
+  width: 18%;
+}
+div.column > div {
+  padding: 0 1.15em;
 }
