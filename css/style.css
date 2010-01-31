@@ -213,7 +213,7 @@ div.contextual-links-wrapper ul.contextual-links {
   top: 27px;
   right: 1px;
 }
-ul.contextual-links li {
+body.html ul.contextual-links li {
   padding-left: 0;
   font-weight: normal;
   background-image: none;
