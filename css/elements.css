@@ -118,7 +118,9 @@ dl dt {
   margin-top: 18px;
   font-weight: 900;
 }
-
+dd {
+  margin-left: 2em;
+}
 /** Form code **/
 form fieldset {
   border: 1px solid #d3d3d3;

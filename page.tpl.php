@@ -116,17 +116,17 @@
     <div id="main-wrapper"><div id="main" class="clearfix">
       <div id="content" class="column clearfix"><div class="section">
         <?php if ($breadcrumb): ?>
-          <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+          <div id="breadcrumb" class="clearfix"><?php print $breadcrumb; ?></div>
         <?php endif; ?>
  
         <?php if (!empty($messages)): ?>
-          <div id="messages" class="clearfix">
+          <div id="messages">
             <?php print $messages; ?>
           </div>
         <?php endif;?>
 
-        <?php if ($page['highlight']): ?><div id="highlight" class="clearfix"><?php print render($page['highlight']); ?></div><?php endif; ?>
-        <a id="main-content" class="clearfix"></a>
+        <?php if ($page['highlight']): ?><div id="highlight"><?php print render($page['highlight']); ?></div><?php endif; ?>
+        <a id="main-content"></a>
         <?php print render($title_prefix); ?>
         <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
         <?php print render($title_suffix); ?>
