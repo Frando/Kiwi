@@ -42,3 +42,6 @@ div.footer-columns-3 div.footer-column {
 div#footer-columns div.footer-column div.region {
   padding: 0 2.65em;
 }
+div#footer-region-wrapper {
+  padding: 2em 2.65em;
+}

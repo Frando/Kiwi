@@ -161,7 +161,9 @@
           <?php endforeach; ?>
         </div>
       <?php endif; ?>
-      <?php print render($page['footer']); ?>
+      <div id="footer-region-wrapper"><div id="footer-region">
+        <?php print render($page['footer']); ?>
+      </div></div>
     </div></div> <!-- /.section, /#footer -->
 
   </div></div> <!-- /#page, /#page-wrapper -->
