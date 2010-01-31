@@ -103,6 +103,10 @@ body.html ul li {
   background: url(../images/bullet.png) no-repeat 0px 9px;
   color: #2C2C2C;
 }
+body.html ul.inline li,
+body.html ul.links li {
+  background-position: 0px 6px;
+}
 ul.inline li {
   display: inline;
 }

@@ -1,11 +1,5 @@
 /* $Id$ */
 
-/** Overall styles **/
-
-.clearfix {
-  clear: both;
-}
-
 /** Toolbar **/
 #toolbar div.toolbar-menu {
   background-color: #404040;
@@ -338,15 +332,28 @@ div#comments div.comment div.content h3 a {
   font-size: 21px;
   font-weight: bold;
 }
-
-div#comments div.comment div.content ul.links {
-}
-
 div#comments div.comment div.content ul.links a {
   font-size: 12px;
   text-transform:capitalize;
 }
 
+/** Admin screens **/
+div.admin .left,
+div.admin .right {
+  margin: 0;
+  width: 49%;
+}
+div#dashboard div#disabled-blocks h2 {
+  font-size: 1em;
+}
+#dashboard .dashboard-region div.block {
+  background-color: #FAFAFA;
+}
+#dashboard .dashboard-region div.block h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  background: transparent none;
+}
 
 /** Menu blocks **/
 div.block div.content > ul.menu > li.first > a {
@@ -384,7 +391,7 @@ div#sidebar-first div.block {
   -webkit-border-radius: 0.5em;
 }
 div#sidebar-first div.block ul.menu li a {
-  background: transparent url(../images/bullet.png) no-repeat scroll 0 9px;
+  background: transparent url(../images/bullet.png) no-repeat scroll 0 6px;
   padding: 0 0 0 1em;
 }
 div#sidebar-first div.block-position-1,

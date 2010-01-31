@@ -56,3 +56,13 @@ function kiwi_status_messages($variables) {
 function kiwi_preprocess_block(&$variables) {
   $variables['classes_array'][] = 'block-position-' . $variables['block_id'];
 }
+
+/**
+ * Override or insert variables into the node template.
+ */
+function kiwi_process_node(&$variables) {
+  $published = theme_get_setting('authoring_' . $variables['node']->type) ?
+    theme_get_setting('authoring_' . $variables['node']->type) : t('Submitted by [node:author] on [node:created]');
+
+  $variables['published'] = filter_xss_admin(token_replace($published, array('node' => $variables['node'])));
+}
