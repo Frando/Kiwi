@@ -450,3 +450,15 @@ div#sidebar-second div.block div.content {
 div#sidebar-second div.block ul.menu li {
   margin-left: 1em;
 }
+
+/** Footer **/
+div#footer-columns h2 {
+  border-bottom: 2px solid #e3e8ec;
+  font-weight: normal;
+  padding-bottom: 0.5em;
+  margin-bottom: 1px;
+}
+div#footer-columns div.content {
+  border-top: 1px solid #fff;
+  padding-top: 1em;
+}

@@ -152,6 +152,15 @@
     </div></div> <!-- /#main, /#main-wrapper -->
 
     <div id="footer"><div class="section">
+      <?php if (!empty($footer_columns)): ?>
+        <div id="footer-columns" class="clearfix footer-columns-<?php print count($footer_columns); ?>">
+          <?php foreach ($footer_columns as $index => $column): ?>
+            <div id="footer-column-<?php print $index + 1; ?>" class="footer-column">
+              <?php print render($column); ?>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      <?php endif; ?>
       <?php print render($page['footer']); ?>
     </div></div> <!-- /.section, /#footer -->
 

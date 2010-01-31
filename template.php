@@ -7,6 +7,11 @@ function kiwi_preprocess_page(&$variables) {
   if (!empty($variables['secondary_menu'])) {
     $variables['classes_array'][] = 'secondary-links';
   }
+  foreach (array('first', 'second', 'third') as $column) {
+    if (isset($variables['page']['footer_' . $column . 'column'])) {
+      $variables['footer_columns'][] = $variables['page']['footer_' . $column . 'column'];
+    }
+  }
 }
 
 /**

@@ -27,3 +27,18 @@ div#sidebar-second {
 div.column > div {
   padding: 0 1.15em;
 }
+div#footer-columns div.footer-column {
+  float: left;
+}
+div.footer-columns-1 div.footer-column {
+  width: 100%;
+}
+div.footer-columns-2 div.footer-column {
+  width: 50%;
+}
+div.footer-columns-3 div.footer-column {
+  width: 33.3%;
+}
+div#footer-columns div.footer-column div.region {
+  padding: 0 2.65em;
+}
