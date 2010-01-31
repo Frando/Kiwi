@@ -86,19 +86,15 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 
-  <?php if ($display_submitted || !empty($content['links']['terms'])): ?>
+  <?php if ($display_submitted): ?>
     <div class="meta">
       <?php if ($display_submitted): ?>
         <span class="submitted"><?php print $published ?></span>
       <?php endif; ?>
-
-      <?php if (!empty($content['links']['terms'])): ?>
-        <div class="terms terms-inline"><?php print render($content['links']['terms']); ?></div>
-      <?php endif; ?>
     </div>
   <?php endif; ?>
 
-  <div class="content"<?php print $content_attributes; ?>>
+  <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
@@ -112,14 +108,12 @@
 
   <div class="clearfix">
     <?php print render($content['links']); ?>
-    <?php
-    if (isset($content['taxonomy_tags'])) {
-      print render($content['taxonomy_tags']);
-    }
-    ?>
   </div>
+  <?php
+  if (isset($content['taxonomy_tags'])) {
+    print render($content['taxonomy_tags']);
+  }
+  ?>
 
-  <div class="clearfix">
-    <?php print render($content['comments']); ?>
-  </div>
+  <?php print render($content['comments']); ?>
 </div>
