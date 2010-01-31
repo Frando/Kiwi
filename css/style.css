@@ -4,9 +4,13 @@
 #toolbar div.toolbar-menu {
   background-color: #404040;
 }
-
 #toolbar .shadow {
   display: none;
+}
+#toolbar div.toolbar-menu ul li a:focus,
+#toolbar div.toolbar-menu ul li a:hover,
+#toolbar div.toolbar-menu ul li a.active:focus {
+  background-color: #000;
 }
 
 /** Secondary links **/
