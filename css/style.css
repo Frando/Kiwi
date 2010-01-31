@@ -284,6 +284,70 @@ div.node ul.links li a:hover {
   color: #ffffff;
 }
 
+/** Comments **/
+div#comments div.comment {
+  margin-bottom: 2.15em;
+}
+div#comments div.comment div.info {
+  width: 9.0em;
+  float: left;
+  margin-top: 18px;
+  font-size: 1.1em;
+  color: #575757;
+}
+div#comments div.comment div.info span.username,
+div#comments div.comment div.info a.username {
+  display: block;
+  color: #9bc41e;
+  text-decoration: none;
+}
+div#comments div.comment div.content div.arrow {
+  background: url(../images/comment.png) no-repeat 0px 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 9px;
+  left: 119px;
+}
+div#comments div.comment div.content {
+  padding-left: 9.9em;
+  position: relative;
+}
+div#comments div.comment div.content div.arrow {
+  background: url(../images/comment.png) no-repeat 0px 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 1em;
+  left: 8.7em;
+}
+div#comments div.comment div.content div.inner {
+  background-color: #fdfdfd;
+  border: 1px solid #e1e1e1;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+div#comments div.comment div.content h3 {
+  margin-top: 0;
+}
+div#comments div.comment div.content h3 a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+div#comments div.comment div.content ul.links {
+}
+
+div#comments div.comment div.content ul.links a {
+  font-size: 12px;
+  text-transform:capitalize;
+}
+
+
 /** Menu blocks **/
 div.block div.content > ul.menu > li.first > a {
   padding-top: 0.5em;
