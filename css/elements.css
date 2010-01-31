@@ -97,8 +97,9 @@ body.html ul {
   list-style: none;
   padding: 0;
 }
-ul li {
+body.html ul li {
   padding-left: 1em;
+  list-style: none;
   background: url(../images/bullet.png) no-repeat 0px 9px;
   color: #2C2C2C;
 }

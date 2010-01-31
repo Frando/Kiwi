@@ -34,7 +34,7 @@ div#page-wrapper ul#secondary-menu li {
 div#page-wrapper ul#secondary-menu li a {
   color: #dbdbdb;
   font-size: 1.15em;
-  padding: 0.87em;
+  padding: 0.54em 0.87em;
   display: block;
   text-transform: uppercase;
   text-decoration: none;
@@ -151,7 +151,7 @@ div#messages div.message-error {
 ul.primary {
   border-bottom: 0;
 }
-div.tabs ul li {
+body.html div.tabs ul li {
   padding-left: 0;
   background-image: none;
   line-height: 3;
