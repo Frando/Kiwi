@@ -7,6 +7,23 @@
 * Long description
 */
 
+/** Toolbar **/
+#toolbar div.toolbar-menu {
+  background-color: #404040;
+}
+#toolbar .shadow {
+  display: none;
+}
+#toolbar div.toolbar-menu ul li {
+  background-image: none;
+}
+div#toolbar div.toolbar-menu ul li a:focus,
+div#toolbar div.toolbar-menu ul li a:hover,
+div#toolbar div.toolbar-menu ul li a.active:focus {
+  background-color: #000;
+  text-decoration: none !important;
+}
+
 /**
 * Secondary links
 */
