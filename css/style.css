@@ -53,7 +53,7 @@ body {
 }
 
 /**
-* Header styles
+* Header
 */
 #skip-link {
   display: none;
@@ -193,7 +193,7 @@ h1#page-title {
 }
 
 /**
-* Pager
+* Pagers
 */
 ul.pager {
   margin: 1.2em 0;
@@ -281,54 +281,7 @@ ul.primary li.active a {
   border: 2px solid #3EACCE;
 }
 
-/**
-* Contextual links
-*/
-a.contextual-links-trigger {
-  background: url(../images/contextual.png) no-repeat scroll 0 0;
-  width: 25px;
-  height: 25px;
-  padding: 0;
-}
-.contextual-links-active a.contextual-links-trigger,
-a.contextual-links-trigger:hover {
-  background-position: 0 -25px;
-  background-color: #fff;
-  border: 0;
-  padding: 0;
-  margin: 2px 1px 0 0;
-  position: relative;
-  z-index: 1;
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-}
-.contextual-links-wrapper ul.contextual-links {
-  background-color: #5e5d5e;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  white-space: nowrap;
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  top: 27px;
-  right: 1px;
-}
-body.html ul.contextual-links li {
-  padding-left: 0;
-  font-weight: normal;
-  background-image: none;
-}
-ul.contextual-links li a {
-  color: #fff !important;
-  margin: 0;
-  padding: 0.75em 1em;
-  text-align: right;
-}
-ul.contextual-links li a:hover {
-  background-color: #868686;
-}
+
 
 
 
@@ -365,30 +318,7 @@ ul.contextual-links li a:hover {
   background-image: none;
 }
 
-/**
-* Menu blocks
-*/
-.block div.content ul.menu li.first a {
-  padding-top: 0.5em;
-}
-.block ul.menu li {
-  padding: 0;
-  background-image: none;
-  list-style: none;
-  margin: 0;
-}
-.block ul.menu li li {
-  margin-left: 1em;
-}
-.block ul.menu li a {
-  border: none;
-  text-decoration: none;
-  margin: 0.3em 0;
-  font-weight: bold;
-  font-size: 1.15em;
-  padding: 0 0 0.5em;
-  display: block;
-}
+
 
 
 
@@ -409,13 +339,13 @@ ul.contextual-links li a:hover {
 }
 
 /**
-* Block module
+* "Block" module
 */
-
-/* Sidebar 1 blocks */
 #page-wrapper #page li li {
   font-size: 1em;
 }
+
+/* First sidebar blocks */
 #sidebar-first .block {
   background-color: #F7F8FA;
   border: 1px solid #D9E5F1;
@@ -469,7 +399,7 @@ ul.contextual-links li a:hover {
   text-transform: uppercase;
 }
 
-/*Sidebar 2 blocks */
+/* Second sidebar blocks */
 #sidebar-second .block .content {
   background-color: #FAFAFA;
 }
@@ -477,8 +407,31 @@ ul.contextual-links li a:hover {
   margin-left: 1em;
 }
 
+/* Menu blocks */
+.block div.content ul.menu li.first a {
+  padding-top: 0.5em;
+}
+.block ul.menu li {
+  padding: 0;
+  background-image: none;
+  list-style: none;
+  margin: 0;
+}
+.block ul.menu li li {
+  margin-left: 1em;
+}
+.block ul.menu li a {
+  border: none;
+  text-decoration: none;
+  margin: 0.3em 0;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding: 0 0 0.5em;
+  display: block;
+}
+
 /**
-* Node module
+* "Node" module
 */
 .node h2 {
   margin-bottom: 0;
@@ -536,7 +489,7 @@ ul.contextual-links li a:hover {
 }
 
 /**
-* Poll module
+* "Poll" module
 */
 .poll .vote-form {
   text-align: left;
@@ -589,7 +542,7 @@ div.poll .bar {
 }
 
 /**
-* Comment module
+* "Comment" module
 */
 #comments .comment {
   margin-bottom: 2.15em;
@@ -639,4 +592,53 @@ div.poll .bar {
 #comments .comment .content ul.links a {
   font-size: 12px;
   text-transform:capitalize;
+}
+
+/**
+* "Contextual links" module
+*/
+a.contextual-links-trigger {
+  background: url(../images/contextual.png) no-repeat scroll 0 0;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
+.contextual-links-active a.contextual-links-trigger,
+a.contextual-links-trigger:hover {
+  background-position: 0 -25px;
+  background-color: #fff;
+  border: 0;
+  padding: 0;
+  margin: 2px 1px 0 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+.contextual-links-wrapper ul.contextual-links {
+  background-color: #5e5d5e;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  top: 27px;
+  right: 1px;
+}
+body.html ul.contextual-links li {
+  padding-left: 0;
+  font-weight: normal;
+  background-image: none;
+}
+ul.contextual-links li a {
+  color: #fff !important;
+  margin: 0;
+  padding: 0.75em 1em;
+  text-align: right;
+}
+ul.contextual-links li a:hover {
+  background-color: #868686;
 }
