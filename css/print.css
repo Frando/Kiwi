@@ -7,23 +7,23 @@
  * Long description
  */
 
-div#toolbar,
-div#secondary-links-wrapper {
+#toolbar,
+#secondary-links-wrapper {
   display: none;
 }
-div#page-wrapper.secondary-links {
+#page-wrapper.secondary-links {
   border-top: 0px solid #000;
 }
-div#page {
+#page {
   max-width: none;
   min-width: none;
   width: 100%;
 }
-div#header {
+#header {
   margin-top: 0;
   margin-bottom: 0;
 }
-div#main-wrapper {
+#main-wrapper {
   padding: 0;
   border: 0;
 }

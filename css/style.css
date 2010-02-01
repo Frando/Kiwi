@@ -10,18 +10,18 @@
 /**
  * Toolbar
  */
-#toolbar div.toolbar-menu {
+#toolbar .toolbar-menu {
   background-color: #404040;
 }
 #toolbar .shadow {
   display: none;
 }
-#toolbar div.toolbar-menu ul li {
+#toolbar .toolbar-menu ul li {
   background-image: none;
 }
-div#toolbar div.toolbar-menu ul li a:focus,
-div#toolbar div.toolbar-menu ul li a:hover,
-div#toolbar div.toolbar-menu ul li a.active:focus {
+#toolbar .toolbar-menu ul li a:focus,
+#toolbar .toolbar-menu ul li a:hover,
+#toolbar .toolbar-menu ul li a.active:focus {
   background-color: #000;
   text-decoration: none !important;
 }
@@ -69,7 +69,7 @@ div#toolbar div.toolbar-menu ul li a.active:focus {
 #header {
   margin: 4.2em 0 2.2em 2em;
 }
-#page-wrapper.secondary-links div#header {
+#page-wrapper.secondary-links #header {
   margin-top: 0;
 }
 #header a#logo {
@@ -375,7 +375,7 @@ ul.contextual-links li a:hover {
   text-align: right;
   padding: 1em 0 0.31em 0;
 }
-div.poll .bar {
+.poll .bar {
   background-color: #ffffff;
   height: 1.54em;
   width: 100%;
@@ -483,7 +483,7 @@ div.poll .bar {
 /**
  * Menu blocks
  */
-.block div.content ul.menu li.first a {
+.block .content ul.menu li.first a {
   padding-top: 0.5em;
 }
 .block ul.menu li {
@@ -550,8 +550,8 @@ div.poll .bar {
   -webkit-border-radius-topleft: 0;
   -webkit-border-radius-topright: 0;
 }
-#sidebar-first div.block-position-1 a,
-#sidebar-first div.block-position-2 a {
+#sidebar-first .block-position-1 a,
+#sidebar-first .block-position-2 a {
   color: #fff;
 }
 #sidebar-first .block-position-1 ul.menu li a,
@@ -592,15 +592,15 @@ div.poll .bar {
 body.overlay {
   background-color: #fff;
 }
-body.overlay div#page-wrapper {
+body.overlay #page-wrapper {
   border-top: 0;
 }
-body.overlay div#page {
+body.overlay #page {
   min-width: none;
   max-width: none;
   width: 100%;
 }
-body.overlay div#main-wrapper {
+body.overlay #main-wrapper {
   padding: 0;
   margin: 0;
   border: 0;
@@ -608,6 +608,6 @@ body.overlay div#main-wrapper {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
 }
-body.overlay div#main {
+body.overlay #main {
   background-image: none;
 }
