@@ -1,6 +1,15 @@
 /* $Id$ */
 
-/** Body **/
+/**
+* @file
+* Short description
+*
+* Long description
+*/
+
+/**
+* Body
+*/
 body {
   line-height: 1.3;
   color: #2c2c2c;
@@ -9,7 +18,9 @@ body {
   background-color: #F9FAFB;
 }
 
-/** Links **/
+/**
+* Links
+*/
 a {
   color: #2499C5;
 }
@@ -17,7 +28,9 @@ div#page-wrapper div#page a:hover {
   text-decoration: underline;
 }
 
-/** Tables **/
+/**
+* Tables
+*/
 table {
   width: 100%;
 }
@@ -52,8 +65,9 @@ table.system-status-report th {
   border-bottom: 0;
 }
 
-/** Headers **/
-
+/**
+* Headers
+*/
 h1 {
   color: #8cd900;
   font-size: 3.2em;
@@ -91,7 +105,9 @@ h6  {
   font-size: 1em;
 }
 
-/** Lists **/
+/**
+* Lists
+*/
 ul li,
 ol li,
 dl dt,
@@ -127,7 +143,10 @@ dl dt {
 dd {
   margin-left: 2em;
 }
-/** Form code **/
+
+/**
+* Forms
+*/
 form fieldset {
   border: 1px solid #d3d3d3;
   display: block;
@@ -227,7 +246,9 @@ form fieldset {
   width: auto;
 }
 
-/** Pagers **/
+/**
+* Pagers
+*/
 ul.pager {
   margin: 1.2em 0;
   padding: 0;
