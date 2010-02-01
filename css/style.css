@@ -1,15 +1,34 @@
 /* $Id$ */
 
 /**
-* @file
-* Short description
-*
-* Long description
-*/
+ * @file
+ * Short description
+ *
+ * Long description
+ */
 
 /**
-* Secondary links
-*/
+ * Toolbar
+ */
+#toolbar div.toolbar-menu {
+  background-color: #404040;
+}
+#toolbar .shadow {
+  display: none;
+}
+#toolbar div.toolbar-menu ul li {
+  background-image: none;
+}
+div#toolbar div.toolbar-menu ul li a:focus,
+div#toolbar div.toolbar-menu ul li a:hover,
+div#toolbar div.toolbar-menu ul li a.active:focus {
+  background-color: #000;
+  text-decoration: none !important;
+}
+
+/**
+ * Secondary links
+ */
 #page-wrapper.secondary-links {
   border-top: 1em solid #313131;
   width: 100%;
@@ -42,8 +61,8 @@
 }
 
 /**
-* Header styles
-*/
+ * Header styles
+ */
 #skip-link {
   display: none;
 }
@@ -79,8 +98,8 @@
 
 
 /**
-* Navigation
-*/
+ * Navigation
+ */
 #navigation ul li {
   background-image: none;
   padding: 0;
@@ -108,8 +127,8 @@
 }
 
 /**
-* Main content
-*/
+ * Main content
+ */
 #main-wrapper {
   background-color: #FFFFFF;
   border: 1px solid #D2D8E3;
@@ -127,8 +146,8 @@
 }
 
 /**
-* Breadcrumb
-*/
+ * Breadcrumb
+ */
 .breadcrumb {
   font-size: 1.2em;
   margin-bottom: 1em;
@@ -152,8 +171,8 @@
 }
 
 /**
-* Title
-*/
+ * Title
+ */
 .node h2,
 h1#page-title {
   color: #575757;
@@ -161,8 +180,8 @@ h1#page-title {
 }
 
 /**
-* Messages
-*/
+ * Messages
+ */
 #messages .message {
   margin-bottom: 1em;
   color: #fff;
@@ -182,8 +201,8 @@ h1#page-title {
 }
 
 /**
-* Tabs
-*/
+ * Tabs
+ */
 ul.primary {
   border-bottom: 0;
 }
@@ -218,8 +237,8 @@ ul.primary li.active a {
 }
 
 /**
-* Contextual links
-*/
+ * Contextual links
+ */
 a.contextual-links-trigger {
   background: url(../images/contextual.png) no-repeat scroll 0 0;
   width: 25px;
@@ -267,8 +286,8 @@ ul.contextual-links li a:hover {
 }
 
 /**
-* Nodes
-*/
+ * Nodes
+ */
 .node h2 {
   margin-bottom: 0;
 }
@@ -325,8 +344,8 @@ ul.contextual-links li a:hover {
 }
 
 /**
-* Poll
-*/
+ * Poll
+ */
 .poll .vote-form {
   text-align: left;
 }
@@ -378,8 +397,8 @@ div.poll .bar {
 }
 
 /**
-* Comments
-*/
+ * Comments
+ */
 #comments .comment {
   margin-bottom: 2.15em;
 }
@@ -431,8 +450,8 @@ div.poll .bar {
 }
 
 /**
-* Admin screens
-*/
+ * Admin screens
+ */
 .admin .left,
 .admin .right {
   margin: 0;
@@ -462,8 +481,8 @@ div.poll .bar {
 }
 
 /**
-* Menu blocks
-*/
+ * Menu blocks
+ */
 .block div.content ul.menu li.first a {
   padding-top: 0.5em;
 }
@@ -487,8 +506,8 @@ div.poll .bar {
 }
 
 /**
-* Sidebar 1 blocks
-*/
+ * Sidebar 1 blocks
+ */
 #page-wrapper #page li li {
   font-size: 1em;
 }
@@ -546,8 +565,8 @@ div.poll .bar {
 }
 
 /**
-* Sidebar 2 blocks
-*/
+ * Sidebar 2 blocks
+ */
 #sidebar-second .block .content {
   background-color: #FAFAFA;
 }
@@ -556,8 +575,8 @@ div.poll .bar {
 }
 
 /**
-* Footer
-*/
+ * Footer
+ */
 #footer-columns h2 {
   border-bottom: 2px solid #e3e8ec;
   font-weight: normal;
