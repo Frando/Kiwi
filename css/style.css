@@ -330,7 +330,7 @@ ul.contextual-links li a:hover {
 .node ul.links li a {
   font-weight: bold;
   font-size: 1em;
-  padding: 9px 20px;
+  padding: 0.69em 1.54em;
   text-decoration: none;
   background-color: #9cc426;
   color: #f4f8e6;
@@ -359,9 +359,9 @@ ul.contextual-links li a:hover {
 }
 .poll .bar-text {
   color: #484848;
-  font-size: 13px;
-  margin-top: 12px;
-  margin-bottom: 3px;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.23em;
 }
 .poll .text {
   float: left;
@@ -369,27 +369,27 @@ ul.contextual-links li a:hover {
 .poll .percent {
   float: right;
   color: #484848;
-  font-size: 13px;
+  font-size: 1em;
 }
 .poll .total {
   text-align: right;
-  padding: 13px 0 4px 0;
+  padding: 1em 0 0.31em 0;
 }
 div.poll .bar {
   background-color: #ffffff;
-  height: 20px;
+  height: 1.54em;
   width: 100%;
   border: 1px solid #d8d8d8;
 }
 .poll .bar .foreground {
-  height: 20px;
+  height: 1.54em;
   float: none;
   background-color: #9bc325;
 }
 #block-poll-recent .links li {
   text-align: right;
-  padding-left: 0px;
-  padding-right: 12px;
+  padding-left: 0;
+  padding-right: 1em;
   background-image: none;
 }
 .poll .links li a {
@@ -441,11 +441,11 @@ div.poll .bar {
 #comments .comment .content h3 a {
   text-decoration: none;
   color: #575757;
-  font-size: 21px;
+  font-size: 1.62em;
   font-weight: bold;
 }
 #comments .comment .content ul.links a {
-  font-size: 12px;
+  font-size: 1em;
   text-transform:capitalize;
 }
 
