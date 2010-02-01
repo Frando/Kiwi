@@ -78,8 +78,6 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <?php print $user_picture; ?>
-
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $node_title; ?></a></h2>
@@ -95,6 +93,7 @@
   <?php endif; ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
+    <?php print $user_picture; ?>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
