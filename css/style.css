@@ -7,6 +7,9 @@
 #toolbar .shadow {
   display: none;
 }
+#toolbar div.toolbar-menu ul li {
+  background-image: none;
+}
 #toolbar div.toolbar-menu ul li a:focus,
 #toolbar div.toolbar-menu ul li a:hover,
 #toolbar div.toolbar-menu ul li a.active:focus {
@@ -28,6 +31,8 @@ div#page-wrapper ul#secondary-menu li {
   -moz-border-radius-bottomright: 0.5em;
   -webkit-border-radius-bottomleft: 0.5em;
   -webkit-border-radius-bottomright: 0.5em;
+  padding: 0;
+  background-image: none;
 }
 div#page-wrapper ul#secondary-menu li a {
   color: #dbdbdb;
