@@ -29,6 +29,9 @@ h2 a {
   text-decoration: none;
   font-size: inherit;
 }
+h2 a:hover {
+color: #909090;
+}
 h3,
 h4,
 h5,
@@ -92,8 +95,9 @@ dd {
 a {
   color: #2499C5;
 }
-#page-wrapper #page a:hover {
-  text-decoration: underline;
+
+a:hover {
+  color: #9cc426;
 }
 
 /**
@@ -238,6 +242,12 @@ form fieldset {
 /**
 * Other
 */
+p {
+font-size: 1.077em;
+color: #575757;
+line-height: 1.5;
+}
+
 code {
   background-color: #e8efd1;
   border-radius: 0.3em;
