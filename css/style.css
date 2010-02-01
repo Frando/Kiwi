@@ -1,28 +1,11 @@
 /* $Id$ */
 
-/** Toolbar **/
-#toolbar div.toolbar-menu {
-  background-color: #404040;
-}
-#toolbar .shadow {
-  display: none;
-}
-#toolbar div.toolbar-menu ul li {
-  background-image: none;
-}
-div#toolbar div.toolbar-menu ul li a:focus,
-div#toolbar div.toolbar-menu ul li a:hover,
-div#toolbar div.toolbar-menu ul li a.active:focus {
-  background-color: #000;
-  text-decoration: none !important;
-}
-
 /** Secondary links **/
-div#page-wrapper.secondary-links {
+#page-wrapper.secondary-links {
   border-top: 1em solid #313131;
   width: 100%;
 }
-div#page-wrapper ul#secondary-menu li {
+#page-wrapper ul#secondary-menu li {
   float: right;
   background-color: #313131;
   margin-left: 1em;
@@ -35,7 +18,7 @@ div#page-wrapper ul#secondary-menu li {
   padding: 0;
   background-image: none;
 }
-div#page-wrapper ul#secondary-menu li a {
+#page-wrapper ul#secondary-menu li a {
   color: #dbdbdb;
   font-size: 1.15em;
   padding: 0.54em 0.87em;
@@ -43,54 +26,54 @@ div#page-wrapper ul#secondary-menu li a {
   text-transform: uppercase;
   text-decoration: none;
 }
-div#page-wrapper ul#secondary-menu li a.active,
-div#page-wrapper ul#secondary-menu li a:hover {
+#page-wrapper ul#secondary-menu li a.active,
+#page-wrapper ul#secondary-menu li a:hover {
   color: #fff;
   text-decoration: none;
 }
 
 /** Header styles **/
 
-div#skip-link {
+#skip-link {
   display: none;
 }
-div#header {
+#header {
   margin: 4.2em 0 2.2em 2em;
 }
-div#page-wrapper.secondary-links div#header {
+#page-wrapper.secondary-links div#header {
   margin-top: 0;
 }
-div#header a#logo {
+#header a#logo {
   float: left;
 }
-div#header div#name-and-slogan {
+#header #name-and-slogan {
   float: left;
 }
-div#header h1#site-name,
-div#header div#site-name {
+#header h1#site-name,
+#header #site-name {
   font-size: 4.62em;
   letter-spacing: -0.02em;
   margin: 0.1em 0 0 0.2em;
 }
-div#header div#site-name a,
-div#header h1#site-name a {
+#header #site-name a,
+#header h1#site-name a {
   color: #404040;
   text-decoration: none;
   font-weight: bold;
 }
-div#header div#site-slogan {
+#header #site-slogan {
   color: #878787;
   font-size: 1.85em;
   margin: -0.2em 0 0 0.6em;
 }
 
 /** Navigation **/
-div#navigation ul li {
+#navigation ul li {
   background-image: none;
   padding: 0;
   margin: 0;
 }
-div#navigation ul li a {
+#navigation ul li a {
   display: block;
   float: left;
   color: #0493b8;
@@ -101,8 +84,8 @@ div#navigation ul li a {
   margin: 0 1em 1em 0;
   line-height: 1;
 }
-div#page-wrapper div#navigation ul li a.active,
-div#page-wrapper div#navigation ul li a:hover {
+#page-wrapper #navigation ul li a.active,
+#page-wrapper #navigation ul li a:hover {
   background-color: #0493b8;
   border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -112,7 +95,7 @@ div#page-wrapper div#navigation ul li a:hover {
 }
 
 /** Main content **/
-div#main-wrapper {
+#main-wrapper {
   background-color: #FFFFFF;
   border: 1px solid #D2D8E3;
   padding: 0.3em;
