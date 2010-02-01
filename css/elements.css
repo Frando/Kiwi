@@ -58,6 +58,7 @@ ol li,
 dl dt,
 dl dd {
   line-height: 165%;
+  font-size: 1.077em;
 }
 body.html ul {
   list-style: none;
@@ -68,7 +69,6 @@ body.html ul li {
   list-style: none;
   margin: 0;
   background: url(../images/bullet.png) no-repeat 0px 9px;
-  color: #2C2C2C;
 }
 body.html ul.inline li,
 body.html ul.links li {
@@ -94,10 +94,13 @@ dd {
 */
 a {
   color: #2499C5;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 a:hover {
   color: #9cc426;
+  background-color: #f9fced;
 }
 
 /**
@@ -145,6 +148,12 @@ form fieldset {
   display: block;
   width: 100%;
 }
+.form-item label {
+  color: #555555;
+  font-family: Trebuchet MS;
+  font-size: 1.138em;
+  font-weight: bold;
+}
 form input.form-text,
 form input.form-password,
 form input.form-file,
@@ -162,6 +171,7 @@ form textarea {
   background-color: #fbfbfb;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
+  width: 14em;
 }
 form input.form-text:focus,
 form input.form-password:focus,

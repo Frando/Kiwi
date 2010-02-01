@@ -41,7 +41,7 @@
 */
 body {
   line-height: 1.3;
-  color: #2c2c2c;
+  color: #575757;
   font-size: 13px;
   font-family: Helvetica, sans-serif;
   background: #F9FAFB url("../images/swirls.png") no-repeat top center;
@@ -453,12 +453,18 @@ h1#page-title {
 }
 
 .node h2 {
-  margin-bottom: 0;
   font-size: 2.308em;
 }
 .node h2 a {
   color: #575757;
 }
+
+.node .meta {
+  font-family: "Trebuchet MS";
+  font-weight: 600;
+  margin-top: -1.1em;
+}
+
 .node .meta span.submitted {
   color: #b2b2b2;
   font-size: 1.308em;
@@ -578,12 +584,16 @@ div.poll .bar {
   width: 8em;
   float: left;
   margin-top: 1.25em;
-  font-size: 1.1em;
-  color: #575757;
+  font-family: "Trebuchet MS";
+  font-weight: 600;
+  font-size: 1.077em;
+  color: #b2b2b2;
 }
-#comments .comment .info span.username,
-#comments .comment .info a.username {
+#comments .comment span.username,
+#comments .comment a.username {
   display: block;
+  font-size: 1.423em;
+
   color: #9bc41e;
   text-decoration: none;
 }
@@ -619,6 +629,10 @@ div.poll .bar {
 #comments .comment .content ul.links a {
   font-size: 12px;
   text-transform:capitalize;
+}
+
+#comments textarea.resizable {
+  height: 18em;
 }
 
 /**
