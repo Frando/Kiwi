@@ -13,6 +13,9 @@ body {
 a {
   color: #2499C5;
 }
+div#page-wrapper div#page a:hover {
+  text-decoration: underline;
+}
 
 /** Tables **/
 table {

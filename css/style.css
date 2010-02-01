@@ -10,10 +10,11 @@
 #toolbar div.toolbar-menu ul li {
   background-image: none;
 }
-#toolbar div.toolbar-menu ul li a:focus,
-#toolbar div.toolbar-menu ul li a:hover,
-#toolbar div.toolbar-menu ul li a.active:focus {
+div#toolbar div.toolbar-menu ul li a:focus,
+div#toolbar div.toolbar-menu ul li a:hover,
+div#toolbar div.toolbar-menu ul li a.active:focus {
   background-color: #000;
+  text-decoration: none !important;
 }
 
 /** Secondary links **/
@@ -45,6 +46,7 @@ div#page-wrapper ul#secondary-menu li a {
 div#page-wrapper ul#secondary-menu li a.active,
 div#page-wrapper ul#secondary-menu li a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 /** Header styles **/
@@ -99,13 +101,14 @@ div#navigation ul li a {
   margin: 0 1em 1em 0;
   line-height: 1;
 }
-div#navigation ul li a.active,
-div#navigation ul li a:hover {
+div#page-wrapper div#navigation ul li a.active,
+div#page-wrapper div#navigation ul li a:hover {
   background-color: #0493b8;
   border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   color: #fff;
+  text-decoration: none;
 }
 
 /** Main content **/
