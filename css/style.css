@@ -206,14 +206,6 @@ ul.primary li a:hover {
 ul.primary li.active a {
   border: 2px solid #3EACCE;
 }
-div.admin-panel {
-  background-color: #FAFAFA;
-  margin: 0 0 4%;
-  padding: 1em;
-}
-div.admin-panel h3 {
-  margin-top: 0;
-}
 
 /** Contextual links **/
 a.contextual-links-trigger {
@@ -426,6 +418,14 @@ div.admin .right {
   margin: 0;
   width: 49%;
 }
+div.admin-panel {
+  background-color: #FAFAFA;
+  margin: 0 0 4%;
+  padding: 1em;
+}
+div.admin-panel h3 {
+  margin-top: 0;
+}
 div#dashboard div#disabled-blocks h2 {
   font-size: 1em;
 }
@@ -436,6 +436,9 @@ div#dashboard div#disabled-blocks h2 {
   font-size: 1.3em;
   font-weight: normal;
   background: transparent none;
+}
+div.system-themes-list ul li {
+  background-image: none;
 }
 
 /** Menu blocks **/
