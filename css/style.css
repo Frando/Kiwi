@@ -151,8 +151,40 @@ body {
 }
 
 /**
-* Breadcrumb
+* Admin screens
 */
+.admin .left,
+.admin .right {
+  margin: 0;
+  width: 49%;
+}
+.admin-panel {
+  background-color: #FAFAFA;
+  margin: 0 0 4%;
+  padding: 1em;
+}
+.admin-panel h3 {
+  margin-top: 0;
+}
+#dashboard #disabled-blocks h2 {
+  font-size: 1em;
+}
+#dashboard .dashboard-region .block {
+  background-color: #FAFAFA;
+}
+#dashboard .dashboard-region .block h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  background: transparent none;
+}
+.system-themes-list ul li {
+  background-image: none;
+}
+
+/**
+* "System" module
+*/
+/* Breadcrumb */
 .breadcrumb {
   font-size: 1.2em;
   margin-bottom: 1em;
@@ -175,10 +207,7 @@ body {
   display: block;
 }
 
-
-/**
-* Messages
-*/
+/* Messages */
 #messages .message {
   margin-bottom: 1em;
   color: #fff;
@@ -197,9 +226,7 @@ body {
   background: #f64920 url(../images/messages-error.png) no-repeat scroll 2em center;
 }
 
-/**
-* Pager
-*/
+/* Pager */
 ul.pager {
   margin: 1.2em 0;
   padding: 0;
@@ -250,9 +277,7 @@ ul.pager li.pager-ellipsis {
   padding: 0.38em;
 }
 
-/**
-* Tabs
-*/
+/* Tabs */
 ul.primary {
   border-bottom: 0;
 }
@@ -285,44 +310,6 @@ ul.primary li a:hover {
 ul.primary li.active a {
   border: 2px solid #3EACCE;
 }
-
-/**
-* Admin screens
-*/
-.admin .left,
-.admin .right {
-  margin: 0;
-  width: 49%;
-}
-.admin-panel {
-  background-color: #FAFAFA;
-  margin: 0 0 4%;
-  padding: 1em;
-}
-.admin-panel h3 {
-  margin-top: 0;
-}
-#dashboard #disabled-blocks h2 {
-  font-size: 1em;
-}
-#dashboard .dashboard-region .block {
-  background-color: #FAFAFA;
-}
-#dashboard .dashboard-region .block h2 {
-  font-size: 1.3em;
-  font-weight: normal;
-  background: transparent none;
-}
-.system-themes-list ul li {
-  background-image: none;
-}
-
-
-
-
-
-
-
 
 /**
 * "Block" module
