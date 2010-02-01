@@ -1,47 +1,47 @@
 /* $Id$ */
 
-div#page {
+#page {
   max-width: 1280px;
   min-width: 800px;
   width: 80%;
   margin: 0 auto;
 }
-div.column {
+.column {
   float: left;
 }
-body.two-sidebars div#content {
+body.two-sidebars #content {
   width: 52%;
 }
-body.sidebar-first div#content {
+body.sidebar-first #content {
   width: 70%;
 }
-body.sidebar-second div#content {
+body.sidebar-second #content {
   width: 82%;
 }
-div#sidebar-first {
+#sidebar-first {
   width: 30%;
 }
-div#sidebar-second {
+#sidebar-second {
   width: 18%;
 }
-div.column > div {
+.column > div {
   padding: 0 1.15em;
 }
-div#footer-columns div.footer-column {
+#footer-columns .footer-column {
   float: left;
 }
-div.footer-columns-1 div.footer-column {
+.footer-columns-1 .footer-column {
   width: 100%;
 }
-div.footer-columns-2 div.footer-column {
+.footer-columns-2 .footer-column {
   width: 50%;
 }
-div.footer-columns-3 div.footer-column {
+.footer-columns-3 .footer-column {
   width: 33.3%;
 }
-div#footer-columns div.footer-column div.region {
+#footer-columns .footer-column .region {
   padding: 0 2.65em;
 }
-div#footer-region-wrapper {
+#footer-region-wrapper {
   padding: 2em 2.65em;
 }
