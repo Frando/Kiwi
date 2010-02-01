@@ -390,9 +390,29 @@ ul.contextual-links li a:hover {
   display: block;
 }
 
+
+
+
+
 /**
-* Sidebar 1 blocks
+* Footer
 */
+#footer-columns h2 {
+  border-bottom: 2px solid #e3e8ec;
+  font-weight: normal;
+  padding-bottom: 0.5em;
+  margin-bottom: 1px;
+}
+#footer-columns .content {
+  border-top: 1px solid #fff;
+  padding-top: 1em;
+}
+
+/**
+* Block module
+*/
+
+/* Sidebar 1 blocks */
 #page-wrapper #page li li {
   font-size: 1em;
 }
@@ -449,25 +469,6 @@ ul.contextual-links li a:hover {
   text-transform: uppercase;
 }
 
-
-
-/**
-* Footer
-*/
-#footer-columns h2 {
-  border-bottom: 2px solid #e3e8ec;
-  font-weight: normal;
-  padding-bottom: 0.5em;
-  margin-bottom: 1px;
-}
-#footer-columns .content {
-  border-top: 1px solid #fff;
-  padding-top: 1em;
-}
-
-/**
-* Block module
-*/
 /*Sidebar 2 blocks */
 #sidebar-second .block .content {
   background-color: #FAFAFA;
