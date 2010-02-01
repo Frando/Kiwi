@@ -108,7 +108,7 @@
     </div></div> <!-- /.section, /#header -->
 
     <?php if ($main_menu): ?>
-      <div id="navigation"><div class="section">
+      <div id="navigation" class="clearfix"><div class="section">
         <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'clearfix')))); ?>
       </div></div> <!-- /.section, /#navigation -->
     <?php endif; ?>

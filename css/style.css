@@ -83,7 +83,30 @@ div#header div#site-slogan {
 }
 
 /** Navigation **/
-
+div#navigation ul li {
+  background-image: none;
+  padding: 0;
+  margin: 0;
+}
+div#navigation ul li a {
+  display: block;
+  float: left;
+  color: #0493b8;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 0.8em 1em 0.6em;
+  margin: 0 1em 1em 0;
+  line-height: 1;
+}
+div#navigation ul li a.active,
+div#navigation ul li a:hover {
+  background-color: #0493b8;
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  color: #fff;
+}
 
 /** Main content **/
 div#main-wrapper {
