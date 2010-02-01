@@ -295,9 +295,9 @@ div#comments div.comment {
   margin-bottom: 2.15em;
 }
 div#comments div.comment div.info {
-  width: 9.0em;
+  width: 8em;
   float: left;
-  margin-top: 18px;
+  margin-top: 1.25em;
   font-size: 1.1em;
   color: #575757;
 }
@@ -307,20 +307,12 @@ div#comments div.comment div.info a.username {
   color: #9bc41e;
   text-decoration: none;
 }
-div#comments div.comment div.content div.arrow {
-  background: url(../images/comment.png) no-repeat 0px 0px;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 9px;
-  left: 119px;
-}
 div#comments div.comment div.content {
   padding-left: 9.9em;
   position: relative;
 }
 div#comments div.comment div.content div.arrow {
-  background: url(../images/comment.png) no-repeat 0px 0px;
+  background: url(../images/comment.png) no-repeat 0;
   width: 50px;
   height: 50px;
   position: absolute;
