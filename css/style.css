@@ -290,6 +290,57 @@ div.node ul.links li a:hover {
   color: #ffffff;
 }
 
+/** Poll **/
+div.poll .vote-form {
+  text-align: left;
+}
+div.poll .vote-form .choices {
+  display: block;
+}
+div.poll div.title {
+  color: #96bd24;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+div.poll div.bar-text {
+  color: #484848;
+  font-size: 13px;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+div.poll div.text {
+  float: left;
+}
+div.poll div.percent {
+  float: right;
+  color: #484848;
+  font-size: 13px;
+}
+div.poll div.total {
+  text-align: right;
+  padding: 13px 0 4px 0;
+}
+div.poll div.bar {
+  background-color: #ffffff;
+  height: 20px;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+}
+div.poll div.bar div.foreground {
+  height: 20px;
+  float: none;
+  background-color: #9bc325;
+}
+div#block-poll-recent div.links li {
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 12px;
+  background-image: none;
+}
+div.poll div.links li a {
+  font-weight: bold;
+}
+
 /** Comments **/
 div#comments div.comment {
   margin-bottom: 2.15em;
