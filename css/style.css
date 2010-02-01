@@ -5,6 +5,35 @@
 * Short description
 *
 * Long description
+*
+* Unit conversion table for body font size = 13px: 
+* Pixels 	EMs
+* 1px   0.077em
+* 2px   0.154em
+* 3px   0.231em
+* 4px   0.308em
+* 5px   0.385em
+* 6px 	0.462em
+* 7px 	0.538em
+* 8px 	0.615em
+* 9px 	0.692em
+* 10px 	0.769em
+* 11px 	0.846em
+* 12px 	0.923em
+* 13px 	1em
+* 14px 	1.077em
+* 15px 	1.154em
+* 16px 	1.231em
+* 17px 	1.308em
+* 18px 	1.385em
+* 19px 	1.462em
+* 20px 	1.538em
+* 21px 	1.615em
+* 22px 	1.692em
+* 23px 	1.769em
+* 24px 	1.846em
+* 25px  1.923em
+* 26px  2em
 */
 
 /**
@@ -13,7 +42,7 @@
 body {
   line-height: 1.3;
   color: #2c2c2c;
-  font-size: 81.25%;
+  font-size: 13px;
   font-family: Helvetica, sans-serif;
   background: #F9FAFB url("../images/swirls.png") no-repeat top center;
 }
@@ -409,19 +438,26 @@ ul.primary li.active a {
 .node h2,
 h1#page-title {
   color: #575757;
-  font-size: 2.46em;
+  font-size: 2.308em;
 }
 
 .node h2 {
   margin-bottom: 0;
+  font-size: 2.308em;
 }
 .node h2 a {
   color: #575757;
 }
 .node .meta span.submitted {
-  color: #A5A5A5;
+  color: #b2b2b2;
   font-size: 1.23em;
 }
+
+.node .user-picture {
+float: left;
+padding: 0px 16px 11px 1px;
+}
+
 .node .field-type-taxonomy-term-reference {
   font-size: 1.1em;
   margin-bottom: 0.5em;
@@ -458,9 +494,9 @@ h1#page-title {
   text-decoration: none;
   background-color: #9cc426;
   color: #f4f8e6;
-  border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -webkit-border-radius: 0.5em;
+  border-radius: 0.35em;
+  -moz-border-radius: 0.35em;
+  -webkit-border-radius: 0.35em;
 }
 .node ul.links li a:hover {
   background-color: #b4da41;
