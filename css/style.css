@@ -112,17 +112,17 @@ div#main {
 }
 
 /** Breadcrumb **/
-div.breadcrumb {
+.breadcrumb {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
-div#breadcrumb a {
+#breadcrumb a {
   color: #0091b7;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
 }
-div#breadcrumb div {
+#breadcrumb div {
   float: left;
 }
 .breadcrumb-separator {
@@ -135,13 +135,13 @@ div#breadcrumb div {
 }
 
 /** Title **/
-div.node h2, h1#page-title {
+.node h2, h1#page-title {
   color: #575757;
   font-size: 2.46em;
 }
 
 /** Messages **/
-div#messages div.message {
+#messages div.message {
   margin-bottom: 1em;
   color: #fff;
   padding: 1em 1em 1em 5em;
