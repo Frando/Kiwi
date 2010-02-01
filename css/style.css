@@ -627,8 +627,9 @@ div.poll .bar {
   font-weight: bold;
 }
 #comments .comment .content ul.links a {
-  font-size: 12px;
-  text-transform:capitalize;
+  font-size: 1em;
+  text-transform: capitalize;
+  font-family: "Arial";
 }
 
 #comments textarea.resizable {
