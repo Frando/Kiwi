@@ -29,12 +29,10 @@ table thead a {
 }
 table tbody tr.odd {
   background-color: #f5f5f5;
-}
-table tbody tr.odd td {
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+  border: 0;
 }
 table tbody tr.even {
+  border: 0;
   background-color: #fff;
 }
 table tr.draggable td {
@@ -46,6 +44,9 @@ table caption {
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 0.55em;
+}
+table.system-status-report th {
+  border-bottom: 0;
 }
 
 /** Headers **/
