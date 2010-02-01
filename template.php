@@ -12,6 +12,21 @@ function kiwi_preprocess_page(&$variables) {
       $variables['footer_columns'][] = $variables['page']['footer_' . $column . 'column'];
     }
   }
+  if (function_exists('overlay_get_mode') && overlay_get_mode() == 'child') {
+    $regions = array(
+      'highlight',
+      'sidebar_first',
+      'sidebar_second',
+      'footer_firstcolumn',
+      'footer_secondcolumn',
+      'footer_thirdcolumn',
+      'footer',
+    );
+    foreach ($regions as $region) {
+      $variables['page'][$region] = NULL;
+    }
+    $variables['theme_hook_suggestions'][] = 'page__overlay';
+  }
 }
 
 /**
