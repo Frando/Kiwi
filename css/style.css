@@ -34,7 +34,7 @@ body {
   color: #575757;
   font-size: 13px;
   font-family: Helvetica, sans-serif;
-  background: #F9FAFB url("../images/swirls.png") no-repeat top center;
+  background: #F9FAFB url(../images/swirls.png) no-repeat top center;
 }
 
 /**
@@ -74,8 +74,8 @@ body {
 }
 
 /**
-* Main content
-*/
+ * Main content
+ */
 #main-wrapper {
   background-color: #FFFFFF;
   border: 1px solid #D2D8E3;
@@ -93,8 +93,8 @@ body {
 }
 
 /**
-* Footer
-*/
+ * Footer
+ */
 #footer-columns h2 {
   border-bottom: 2px solid #e3e8ec;
   font-weight: normal;
@@ -212,8 +212,9 @@ body {
 }
 
 /**
- * "System" module
+ * System module
  */
+
 /* Breadcrumb */
 .breadcrumb {
   font-size: 1.2em;
@@ -342,8 +343,8 @@ ul.primary li.active a {
 }
 
 /**
-* "Block" module
-*/
+ * Block module
+ */
 #page-wrapper #page li li {
   font-size: 1em;
 }
@@ -434,8 +435,8 @@ ul.primary li.active a {
 }
 
 /**
-* "Node" module
-*/
+ * Node module
+ */
 .node h2,
 h1#page-title {
   color: #575757;
@@ -512,8 +513,8 @@ padding: 0px 16px 11px 1px;
 }
 
 /**
-* "Poll" module
-*/
+ * Poll module
+ */
 .poll .vote-form {
   text-align: left;
 }
@@ -565,8 +566,8 @@ padding: 0px 16px 11px 1px;
 }
 
 /**
-* "Comment" module
-*/
+ * Comment module
+ */
 #comments .comment {
   margin-bottom: 2.15em;
 }
@@ -627,8 +628,8 @@ padding: 0px 16px 11px 1px;
 }
 
 /**
-* "Contextual links" module
-*/
+ * Contextual links module
+ */
 a.contextual-links-trigger {
   background: url(../images/contextual.png) no-repeat scroll 0 0;
   width: 25px;
@@ -676,7 +677,9 @@ ul.contextual-links li a:hover {
   background-color: #868686;
 }
 
-/** Overlay **/
+/**
+ * Overlay module
+ */
 body.overlay {
   background-color: #fff;
 }
