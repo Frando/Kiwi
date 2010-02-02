@@ -620,7 +620,6 @@ padding: 0px 16px 11px 1px;
 #comments .comment .content ul.links a {
   font-size: 1em;
   text-transform: capitalize;
-  font-family: "Arial";
 }
 
 #comments textarea.resizable {
