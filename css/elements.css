@@ -87,6 +87,9 @@ h2 a {
   text-decoration: none;
   font-size: inherit;
 }
+h2 a:hover {
+color: #909090;
+}
 h3,
 h4,
 h5,
@@ -113,6 +116,7 @@ ol li,
 dl dt,
 dl dd {
   line-height: 165%;
+  font-size: 1.077em;
 }
 body.html ul {
   list-style: none;
@@ -123,7 +127,6 @@ body.html ul li {
   list-style: none;
   margin: 0;
   background: url(../images/bullet.png) no-repeat 0px 9px;
-  color: #2C2C2C;
 }
 body.html ul.inline li,
 body.html ul.links li {
@@ -145,12 +148,69 @@ dd {
 }
 
 /**
+ * Links
+ */
+a {
+  color: #2499C5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9cc426;
+  background-color: #f9fced;
+}
+
+/**
+ * Tables
+ */
+table {
+  width: 100%;
+}
+table th,
+table td {
+  padding: 1em 1.15em;
+}
+table thead,
+table thead a {
+  background-color: #434343;
+  color: #f5f5ee;
+}
+table tbody tr.odd {
+  background-color: #f5f5f5;
+  border: 0;
+}
+table tbody tr.even {
+  border: 0;
+  background-color: #fff;
+}
+table tr.draggable td {
+  padding: 0.7em 1.15em;
+}
+table caption {
+  text-align: left;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 0.55em;
+}
+table.system-status-report th {
+  border-bottom: 0;
+}
+
+/**
  * Forms
  */
 form fieldset {
   border: 1px solid #d3d3d3;
   display: block;
   width: 100%;
+}
+.form-item label {
+  color: #555555;
+  font-family: Trebuchet MS;
+  font-size: 1.138em;
+  font-weight: bold;
 }
 form input.form-text,
 form input.form-password,
@@ -169,6 +229,7 @@ form textarea {
   background-color: #fbfbfb;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
+  width: 14em;
 }
 form input.form-text:focus,
 form input.form-password:focus,
@@ -297,9 +358,16 @@ ul.pager li a:hover {
 }
 ul.pager li.pager-ellipsis {
   padding: 0.38em;
+
+/**
+ * Other
+ */
+p {
+font-size: 1.077em;
+color: #575757;
+line-height: 1.5;
 }
 
-/** Miscelanious elements **/
 code {
   background-color: #e8efd1;
   border-radius: 0.3em;
