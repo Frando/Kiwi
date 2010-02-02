@@ -23,46 +23,13 @@ body {
  */
 a {
   color: #2499C5;
-}
-#page-wrapper #page a:hover {
-  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-/**
- * Tables
- */
-table {
-  width: 100%;
-}
-table th,
-table td {
-  padding: 1em 1.15em;
-}
-table thead,
-table thead a {
-  background-color: #434343;
-  color: #f5f5ee;
-}
-table tbody tr.odd {
-  background-color: #f5f5f5;
-  border: 0;
-}
-table tbody tr.even {
-  border: 0;
-  background-color: #fff;
-}
-table tr.draggable td {
-  padding: 0.7em 1.15em;
-}
-table caption {
-  text-align: left;
-  font-size: 1.125em;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-bottom: 0.55em;
-}
-table.system-status-report th {
-  border-bottom: 0;
+#page a:hover {
+  text-decoration: underline;
+  color: #9cc426;
 }
 
 /**
@@ -145,20 +112,6 @@ dl dt {
 }
 dd {
   margin-left: 2em;
-}
-
-/**
- * Links
- */
-a {
-  color: #2499C5;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9cc426;
-  background-color: #f9fced;
 }
 
 /**
@@ -255,7 +208,7 @@ form input.form-submit {
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1em;
   padding: 0.6em 1.2em;
   margin: 0.5em 0;
@@ -333,7 +286,7 @@ ul.pager li a {
 ul.pager li.pager-current {
   background-color: #575757;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: bold;
   border: 1px solid #575757;
   text-decoration: none;
   padding: 0.38em 0.69em;
