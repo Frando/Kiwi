@@ -270,21 +270,18 @@ ul.pager li {
   padding: 0;
   margin: 0 0.1em;
 }
-ul.pager li a {
-  border: 1px solid;
-  border-color: #2aa5ce;
+ul.pager li a,
+ul.pager li.pager-current {
+  border: 1px solid #2aa5ce;
   font-weight: bold;
   color: #3EACCE;
   text-decoration: none;
-  padding: 0.38em 0.69em;
+  padding: 0.38em 0.59em 0.2em;
 }
 ul.pager li.pager-current {
   background-color: #575757;
   color: #ffffff;
-  font-weight: bold;
   border: 1px solid #575757;
-  text-decoration: none;
-  padding: 0.38em 0.69em;
   margin: 0 0.5em;
 }
 ul.pager li.pager-first,
